@@ -14,7 +14,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 # Class representing the first assignment. Finds the shortest path between two points in a maze according to a specific
 # path specification.
 class AntColonyOptimization:
-
     # Constructs a new optimization object using ants.
     # @param maze the maze.
     # @param antsPerGen the amount of ants per generation.
@@ -62,7 +61,7 @@ class AntColonyOptimization:
         start_time = int(round(time.time() * 1000))
         shortest_route = aco.find_shortest_route(spec)
         print("Time taken (easy): " + str((int(round(time.time() * 1000)) - start_time) / 1000.0))
-        shortest_route.write_to_file("./../data/easy_solution.txt")
+        shortest_route.write_to_file("./../results/easy_solution.txt")
         print("Route size (easy): " + str(shortest_route.size()))
 
     @staticmethod
@@ -74,7 +73,7 @@ class AntColonyOptimization:
         start_time = int(round(time.time() * 1000))
         shortest_route = aco.find_shortest_route(spec)
         print("Time taken (medium): " + str((int(round(time.time() * 1000)) - start_time) / 1000.0))
-        shortest_route.write_to_file("./../data/medium_solution.txt")
+        shortest_route.write_to_file("./../results/medium_solution.txt")
         print("Route size (medium): " + str(shortest_route.size()))
 
     @staticmethod
@@ -86,7 +85,7 @@ class AntColonyOptimization:
         start_time = int(round(time.time() * 1000))
         shortest_route = aco.find_shortest_route(spec)
         print("Time taken (hard): " + str((int(round(time.time() * 1000)) - start_time) / 1000.0))
-        shortest_route.write_to_file("./../data/hard_solution.txt")
+        shortest_route.write_to_file("./../results/hard_solution.txt")
         print("Route size (hard): " + str(shortest_route.size()))
 
 
@@ -113,7 +112,7 @@ if __name__ == "__main__":
     print("Time taken: " + str((int(round(time.time() * 1000)) - start_time) / 1000.0))
 
     # save solution
-    shortest_route.write_to_file("./../data/medium_solution.txt")
+    shortest_route.write_to_file("./../results/medium_solution.txt")
 
     # print route size
     print("Route size: " + str(shortest_route.size()))

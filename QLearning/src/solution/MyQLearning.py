@@ -9,7 +9,6 @@ from QLearning import QLearning
 
 
 class MyQLearning(QLearning):
-
     def update_q(self, state, action, r, state_next, possible_actions, alpha, gamma):
         action_values = self.get_action_values(state_next, possible_actions)
         q_max = action_values[np.argmax(action_values)]

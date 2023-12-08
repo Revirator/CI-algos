@@ -1,5 +1,4 @@
 class State:
-
     def __init__(self, x, y, state_type):
         self.x = x
         self.y = y

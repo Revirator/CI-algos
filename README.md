@@ -1,0 +1,2 @@
+# Computational Intelligence Algorithms
+This project contains the implementations of three different CI algorithms - Ant Colony Optimization (ACO), Artififical Neural Network (ANN), and Q-learning. These ML models were created with the help of [Michał Jóźwik](https://github.com/Eragoneq), [Martynas Krupskis](https://github.com/Krupskis), and [Lukas Ostrovskis](https://github.com/lukas-ostrovskis) as part of the [Computational Intelligence](https://studyguide.tudelft.nl/a101_displayCourse.do?course_id=64459&_NotifyTextSearch_) course at TU Delft.

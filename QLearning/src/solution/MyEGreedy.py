@@ -3,7 +3,6 @@ import numpy as np
 
 
 class MyEGreedy:
-
     def __init__(self):
         print("Made EGreedy")
 

@@ -8,7 +8,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 # Class containing the pheromone information around a certain point in the maze
 class SurroundingPheromone:
-
     # Creates a surrounding pheromone object.
     # @param north the amount of pheromone in the north.
     # @param east the amount of pheromone in the east.

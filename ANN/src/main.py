@@ -51,9 +51,9 @@ def test_different_weights():
 
 
 # Input parameters used to tweak the data (hyper-parameters)
-data = load_features("data/features.txt")
-targets = load_targets("data/targets.txt")
-unknown_data = load_features("data/unknown.txt")
+data = load_features("../data/features.txt")
+targets = load_targets("../data/targets.txt")
+unknown_data = load_features("../data/unknown.txt")
 size_input = 10
 size_hidden = 17
 size_output = 7
@@ -121,7 +121,7 @@ if show_plots:
 
 # Unknown Data Prediction
 predictions = neuron.prediction(unknown_data, weights_output, weights_hidden, bias_output, bias_hidden)
-with open("./Group_75_classes.txt", "w") as f:
+with open("../results/classes.txt", "w") as f:
     f.write(",".join(map(str, predictions)))
 
 # Confusion Matrix

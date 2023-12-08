@@ -8,7 +8,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 # Class representing a route.
 class Route:
-
     # Route takes a starting coordinate to initialize
     # @param start starting coordinate
     def __init__(self, start):

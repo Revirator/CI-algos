@@ -8,7 +8,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 # Class representing a coordinate.
 class Coordinate:
-
      # Constructs a new coordinate object.
      # @param x the x coordinate
      # @param y the y coordinate

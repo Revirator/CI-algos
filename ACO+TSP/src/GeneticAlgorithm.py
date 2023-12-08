@@ -14,8 +14,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 # TSP problem solver using genetic algorithms.
 class GeneticAlgorithm:
-
-
     # Constructs a new 'genetic algorithm' object.
     # @param generations the amount of generations.
     # @param popSize the population size.

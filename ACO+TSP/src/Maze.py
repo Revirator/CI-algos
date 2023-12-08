@@ -12,7 +12,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 # Class that holds all the maze data. This means the pheromones, the open and blocked tiles in the system as
 # well as the starting and end coordinates.
 class Maze:
-
     # Constructor of a maze
     # @param walls int array of tiles accessible (1) and non-accessible (0)
     # @param width width of Maze (horizontal)

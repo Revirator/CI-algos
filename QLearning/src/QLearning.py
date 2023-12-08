@@ -1,5 +1,4 @@
 class QLearning:
-
     def __init__(self):
         # dictionary (State, <Action, Value>)
         self.q = {}

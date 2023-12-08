@@ -10,7 +10,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 # Specification of a path containing a start and end coordinate.
 class PathSpecification:
-
     # Constructs a new path specification.
     # @param start the start coordinate.
     # @param end the end coordinate.

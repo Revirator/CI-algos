@@ -12,7 +12,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 # Class that represents the ants' functionality.
 class Ant:
-
     # Constructor for ant taking a Maze and PathSpecification.
     # @param maze Maze the ant will be running in.
     # @param spec The path specification consisting of a start coordinate and an end coordinate.

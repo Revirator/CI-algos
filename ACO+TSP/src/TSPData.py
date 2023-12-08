@@ -15,7 +15,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 # Class containing the product distances. Can be either build from a maze, a product
 # location list and a PathSpecification or be reloaded from a file.
 class TSPData:
-
     # Constructs a new TSP data object.
     # @param productLocations the product locations.
     # @param spec the path specification.
@@ -196,8 +195,8 @@ if __name__ == "__main__":
     q = 10
     evap = 0.5
     persist_file = "./../tmp/productMatrixDist"
-    tsp_path = "./../data/tsp products.txt"
-    coordinates = "../data/hard coordinates.txt"
+    tsp_path = "./../results/tsp products.txt"
+    coordinates = "../results/hard coordinates.txt"
 
     # construct optimization
     maze = Maze.create_maze("./../data/hard maze.txt")

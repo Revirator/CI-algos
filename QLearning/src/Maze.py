@@ -6,7 +6,6 @@ from State import State
 
 
 class Maze:
-
     def __init__(self, file):
         # to build a 2-d maze from a file
         up = Action("up")
